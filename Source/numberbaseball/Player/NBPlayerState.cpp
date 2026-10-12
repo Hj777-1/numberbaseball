@@ -1,0 +1,33 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "Player/NBPlayerState.h"
+#include "Net/UnrealNetwork.h"
+
+ANBPlayerState::ANBPlayerState()
+	: PlayerNameString(TEXT("None"))
+	, CurrentGuessCount(0)
+	, MaxGuessCount(3)
+{
+	bReplicates = true;
+}
+
+void ANBPlayerState::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(ThisClass, PlayerNameString);
+	DOREPLIFETIME(ThisClass, CurrentGuessCount);
+	DOREPLIFETIME(ThisClass, MaxGuessCount);
+}
+
+FString ANBPlayerState::GetGuessCountString() const
+{
+	return FString::Printf(TEXT("[%d/%d]"), CurrentGuessCount, MaxGuessCount);
+}
+
+FString ANBPlayerState::GetPlayerInfoString()
+{
+
+	return PlayerNameString + TEXT(" ") + GetGuessCountString();
+}

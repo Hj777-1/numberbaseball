@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Maps/NB.umap",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/Player/BP_NBPlayerController.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/Game/BP_NBGameModeBase.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/UI/WBP_ChatInput.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/UI/WBP_NotificationText.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/Player/BP_NBPawn.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/Game/BP_NBGameStateBase.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/Player/BP_NBPlayerState.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/UI/WBP_ChatInput2.uasset",
+				"C:/UE5/numberbaseball/Content/NumberBaseball/Blueprints/BP_NBPlayerController.uasset"
+			]
+		}
+	]
+}
