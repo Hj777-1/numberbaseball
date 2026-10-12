@@ -252,7 +252,10 @@
     <None Include="..\..\numberbaseball.uproject"/>
     <None Include="..\..\Source\numberbaseball.Target.cs"/>
     <None Include="..\..\Source\numberbaseballEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\README.md"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
