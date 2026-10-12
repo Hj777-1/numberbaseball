@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\UE5\\numberbaseball\\Source\\numberbaseball\\numberbaseball.Build.cs",
-		"C:\\UE5\\numberbaseball\\Source\\numberbaseball.Target.cs",
-		"C:\\UE5\\numberbaseball\\Source\\numberbaseballEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.1"
-}
